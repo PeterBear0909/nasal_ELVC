@@ -1,4 +1,4 @@
-# 🎓 2025 Thesis 電子喉語音轉換綜合分析
+# 電子喉語音轉換綜合分析
 
 ## Abstract
 本研究探討兩種電子喉語音——**頸部電子喉（CEL）與鼻部電子喉（NEL）**在語音轉換任務中的表現差異。CEL 雖為主流發聲工具，但因激勵訊號固定且含機械噪音，導致語音自然度與可理解度明顯下降。相較之下，NEL 利用鼻腔傳導訊號，能降低震動噪音並提供更穩定的語音輸出，特別適用於術後早期無法使用 CEL 的患者。
@@ -24,4 +24,3 @@ F0 (Pitch) related:
 Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
 
-[GitHub Repo](https://github.com/PeterBear0909/2025_Thesis_demo)
