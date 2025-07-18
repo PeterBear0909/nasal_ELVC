@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: 我的論文展示
+---
 
-<head>
-    <meta charset="UTF-8">
-    <title>2025 Thesis Demo</title>
-</head>
+# 🎓 2025 Thesis Demo
 
-<body>
-    <h1>Welcome to My 2025 Thesis Demo</h1>
-    <p>This is my GitHub Page powered by HTML.</p>
-</body>
+這是我碩士論文展示網站！
 
-</html>
+- 🔬 研究主題
+- 🎧 語音示範
+- 📈 評估結果
+
+👉 [回到 GitHub Repo](https://github.com/PeterBear0909/2025_Thesis_demo)

@@ -1,14 +1,5 @@
----
-layout: default
-title: 我的論文展示
----
+# 2025 Thesis Demo pages
 
-# 🎓 2025 Thesis Demo
+這是我的碩士論文 GitHub 專案，包含語音轉換結果展示網站。
 
-這是我碩士論文展示網站！
-
-- 🔬 研究主題
-- 🎧 語音示範
-- 📈 評估結果
-
-👉 [回到 GitHub Repo](https://github.com/PeterBear0909/2025_Thesis_demo)
+[Link](https://peterbear0909.github.io/2025_Thesis_demo/)
