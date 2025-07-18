@@ -24,3 +24,13 @@ F0 (Pitch) related:
 
 Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
+
+**sample 1**
+
+|   Model   |transcription: 他捐了很多衣物給災區 (wo bang ta ba ji dan fang ru bing xiang)|
+|:---------:|:-------------------------------------------------------------------:|
+| EL speech | <audio src="audio/EL01v4/EL01_281.wav" controls preload></audio> |
+| MT-CLDNN  | <audio src="audio/el01_nl02/mtcldnn/EL01-NL02_MTCLDNN_h5_GV_no0th_285.wav" controls preload></audio> |
+|    TFS    | <audio src="audio/el01_nl02/tfs/EL01-NL02_TFS_285.wav" controls preload></audio> |
+|    PT     | <audio src="audio/el01_nl02/pt/EL01-NL02_PT_285.wav" controls preload></audio> |
+| NL speech | <audio src="audio/nl02/NL02_285.wav" controls preload></audio> |
