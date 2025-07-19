@@ -106,7 +106,7 @@ The following presents the results of NEL speech processed by the VTN-VC and ETN
 | ETN-VC NEL | <audio src="audio/NEL01v2/ETN-Mel-NEL_284.wav" controls preload></audio> |
 | NL speech | <audio src="audio/NL01v4/NL01v4_284.wav" controls preload></audio> |
 
-**sample 3 (CEL using WavLM features and NEL using Mel-spectrograms, respectively.)**
+**sample 4 (CEL using WavLM features and NEL using Mel-spectrograms, respectively.)**
 
 |   Model   |transcription: 昨天他向我借了三百塊 (Zuo tian ta xiang wo jie le san bai kuai)|
 |:---------:|:-------------------------------------------------------------------:|
