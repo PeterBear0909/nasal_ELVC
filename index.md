@@ -39,14 +39,15 @@ Duration related:
 
 ## Experimental Results
 
+* Table. I. Objective evaluation results of VTN-VC models using different features on CEL-to-NL and NEL-to-NL conversion tasks. ↑ means the higher the better, while ↓ means the lower the better.
 ![vtn-r](figure/VTN-result.png)
-* Objective evaluation results of VTN-VC models using different features on CEL-to-NL and NEL-to-NL conversion tasks. ↑ means the higher the better, while ↓ means the lower the better.
 
+* Table. II. Performance comparison of the VTN-VC model and the ETN-VC model with different levels of data augmentation.
 ![etn-r](figure/ETN-result.png)
-* Performance comparison of the VTN-VC model and the ETN-VC model with different levels of data augmentation.
 
+* Table. III. SpeechBERTScore, UTMOS, UTMOSv2, and MOSA-Net+ scores for NEL, NL, and converted speech (mean ± 95% confidence interval).
 ![nnmos](figure/nn-mos.png)
-* SpeechBERTScore, UTMOS, UTMOSv2, and MOSA-Net+ scores for NEL, NL, and converted speech (mean ± 95% confidence interval).
+
 
 ## Demo
 
