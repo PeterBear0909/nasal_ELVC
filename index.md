@@ -25,12 +25,12 @@ F0 (Pitch) related:
 Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
 
-**sample 1**
+**sample 1 (CEL using WavLM feature, NEL using Mel-Spectrogram, respectively.)**
 
 |   Model   |transcription: 他捐了很多衣物給災區 (Ta juan le hen duo yiwu gei zaiqu)|
 |:---------:|:-------------------------------------------------------------------:|
 | CEL speech | <audio src="audio/EL01v4/EL01v4_281.wav" controls preload></audio> |
 | NEL speech | <audio src="audio/NEL01v2/NEL01v2_281.wav" controls preload></audio> |
-| VTN-VC Mel NEL | <audio src="audio/el01_nl02/tfs/EL01-NL02_TFS_285.wav" controls preload></audio> |
-|    PT     | <audio src="audio/el01_nl02/pt/EL01-NL02_PT_285.wav" controls preload></audio> |
+| VTN-VC CEL | <audio src="audio/EL01v4/VTN-WavLM-EL_281.wav" controls preload></audio> |
+| VTN-VC NEL | <audio src="audio/NEL01v2/VTN-Mel-EL_281.wav" controls preload></audio> |
 | NL speech | <audio src="audio/NL01v4/NL01v4_281.wav" controls preload></audio> |
