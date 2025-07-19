@@ -32,5 +32,7 @@ Duration related:
 | CEL speech | <audio src="audio/EL01v4/EL01v4_281.wav" controls preload></audio> |
 | NEL speech | <audio src="audio/NEL01v2/NEL01v2_281.wav" controls preload></audio> |
 | VTN-VC CEL | <audio src="audio/EL01v4/VTN-WavLM-EL_281.wav" controls preload></audio> |
-| VTN-VC NEL | <audio src="audio/NEL01v2/VTN-Mel-EL_281.wav" controls preload></audio> |
+| VTN-VC NEL | <audio src="audio/NEL01v2/VTN-Mel-NEL_281.wav" controls preload></audio> |
+| ETN-VC CEL | <audio src="audio/EL01v4/ETN-WavLM-EL_281.wav" controls preload></audio> |
+| ETN-VC NEL | <audio src="audio/NEL01v2/ETN-Mel-NEL_281.wav" controls preload></audio> |
 | NL speech | <audio src="audio/NL01v4/NL01v4_281.wav" controls preload></audio> |
