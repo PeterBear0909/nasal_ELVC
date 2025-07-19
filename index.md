@@ -25,7 +25,7 @@ F0 (Pitch) related:
 Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
 
-**sample 1 (CEL using WavLM feature, NEL using Mel-Spectrogram, respectively.)**
+**sample 1 (CEL using WavLM features and NEL using Mel-spectrograms, respectively.)**
 
 |   Model   |transcription: 他捐了很多衣物給災區 (Ta juan le hen duo yiwu gei zaiqu)|
 |:---------:|:-------------------------------------------------------------------:|
