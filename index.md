@@ -1,7 +1,7 @@
 # 電子喉語音轉換綜合分析
 
 ## Abstract
-本研究探討兩種電子喉語音——頸部電子喉（CEL）與鼻部電子喉（NEL）在語音轉換任務中的表現。CEL 為常見的替代發聲工具，但需將裝置貼於頸部使用，對於術後頸部傷口尚未癒合的喉切除患者而言，無法立即使用。相較之下，NEL 採用鼻腔傳導激勵訊號，不僅避開頸部接觸，更能降低震動噪音並穩定語音輸出，特別適用於術後早期患者。
+<!-- 本研究探討兩種電子喉語音——頸部電子喉（CEL）與鼻部電子喉（NEL）在語音轉換任務中的表現。CEL 為常見的替代發聲工具，但需將裝置貼於頸部使用，對於術後頸部傷口尚未癒合的喉切除患者而言，無法立即使用。相較之下，NEL 採用鼻腔傳導激勵訊號，不僅避開頸部接觸，更能降低震動噪音並穩定語音輸出，特別適用於術後早期患者。
 
 本研究提出一系列轉換策略與訓練技術，包括：
 * 使用 梅爾頻譜與WavLM 特徵進行比較
@@ -10,7 +10,15 @@
 * 應用 局部線性嵌入（LLE-VC）與生成式文本擴增電子喉語料提升資料數量
 * 探討 前處理與後處理的 Two-Stage VC 架構
 
-實驗結果顯示：NEL 搭配 梅爾頻譜特徵與資料擴增策略，在語音自然度與理解度上表現最佳，優於基線 VTN-VC 模型與其他組合，也優於 CEL 在任何系統上的結果，突顯資料品質與特徵選擇的重要性。
+實驗結果顯示：NEL 搭配 梅爾頻譜特徵與資料擴增策略，在語音自然度與理解度上表現最佳，優於基線 VTN-VC 模型與其他組合，也優於 CEL 在任何系統上的結果，突顯資料品質與特徵選擇的重要性。 -->
+
+Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx has low intelligibility due to insufficient excitation signals for speech production and fixed pitch. Although recent EL speech voice conversion (ELVC) research has made good progress, the research has mainly focused on cervical EL (CEL) speech. This study experiments on ELVC of speech produced by a novel nasal EL (NEL) device. Specifically, we evaluate the impact of using Mel-spectrogram and WavLM features as inputs to the ELVC system. We also propose a data augmentation method using text-to-speech (TTS) and exemplar-based VC. We find that while WavLM features have a significant effect on ELVC of CEL speech, the model using Mel-spectrogram performs better in both subjective and objective evaluations of ELVC of NEL speech due to the unique acoustic properties of NEL speech. In addition, NEL speech synthesized using Mel-spectrogram is closer to real NEL speech than NEL speech synthesized using WavLM features.
+
+## Model Architecture
+
+![VTN-VC][figure/VTN-VC]
+
+![ETN-VC][figure/ETN-VC]
 
 ## Objective evaluation
 
