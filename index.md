@@ -64,6 +64,9 @@ The following presents the results of NEL speech processed by the VTN-VC and ETN
 * Table. III. SpeechBERTScore, UTMOS, UTMOSv2, and MOSA-Net+ scores for NEL, NL, and converted speech (mean ± 95% confidence interval).
 ![nnmos](figure/nn-mos.png)
 
+![ab_test](figure/AB_Test_Results.png)
+* Fig. 3. The intelligibility A/B test results for different model configurations. The bars represent the percentage of subjects’ votes for each system (system A, system B, and no preference)
+
 
 ## Demo
 
