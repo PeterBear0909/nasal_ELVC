@@ -37,6 +37,19 @@ F0 (Pitch) related:
 Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
 
+## Experimental Results
+
+![vtn-r](figure/VTN-result.png)
+* Objective evaluation results of VTN-VC models using different features on CEL-to-NL and NEL-to-NL conversion tasks. ↑ means the higher the better, while ↓ means the lower the better.
+
+![etn-r](figure/ETN-result.png)
+* Performance comparison of the VTN-VC model and the ETN-VC model with different levels of data augmentation.
+
+![nnmos](figure/nn-mos.png)
+* SpeechBERTScore, UTMOS, UTMOSv2, and MOSA-Net+ scores for NEL, NL, and converted speech (mean ± 95% confidence interval).
+
+## Demo
+
 **sample 1 (CEL using WavLM features and NEL using Mel-spectrograms, respectively.)**
 
 |   Model   |transcription: 他捐了很多衣物給災區 (Ta juan le hen duo yiwu gei zaiqu)|
