@@ -28,6 +28,7 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 
 Intelligibility related:
 * MCD: Mel-cepstrum distortion
+* CER: character error rate of Whisper ASR
 * SER: syllable error rate of ASR system
 
 F0 (Pitch) related:
@@ -38,6 +39,8 @@ Duration related:
 * DDUR: average absolute duration difference between the converted and target utterances
 
 ## Experimental Results
+The CER and SER for NEL speech are 90.8% and 89.5%, respectively. The CER and SER of the zero-shot VC-processed NEL speech of the pretrained Seed-VC model are 92.3% and 84.8%, respectively.
+The following presents the results of NEL speech processed by the VTN-VC and ETN-VC models.
 
 * Table. I. Objective evaluation results of VTN-VC models using different features on CEL-to-NL and NEL-to-NL conversion tasks. ↑ means the higher the better, while ↓ means the lower the better.
 ![vtn-r](figure/VTN-result.png)
