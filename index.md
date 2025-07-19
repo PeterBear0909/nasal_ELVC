@@ -24,19 +24,32 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 ![Spectro](figure/SpeechSpectro.png)
 * Fig. 2. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram).
 
-## Objective evaluation
+## Objective Evaluation
 
 Intelligibility related:
-* MCD: Mel-cepstrum distortion
-* CER: character error rate of Whisper ASR
-* SER: syllable error rate of ASR system
+* MCD: Mel-cepstrum distortion ↓
+* CER: character error rate of Whisper ASR ↓
+* SER: syllable error rate of ASR system ↓
 
 F0 (Pitch) related:
-* F0 RMSE: F0 root mean square error
-* F0 CORR: F0 correlation coefficients
+* F0 RMSE: F0 root mean square error ↑
+* F0 CORR: F0 correlation coefficients ↓
 
 Duration related:
-* DDUR: average absolute duration difference between the converted and target utterances
+* DDUR: average absolute duration difference between the converted and target utterances ↓
+
+## Subjective Evaluation
+Intelligibility related:
+* A/B Test 
+* MOSA-Net+ ↑
+
+Speech Quality related:
+* UTMOS ↑
+* UTMOSv2 ↑
+* MOSA-Net+ ↑
+
+Semantic Consistency related:
+* SpeechBertScore ↑
 
 ## Experimental Results
 The CER and SER for NEL speech are 90.8% and 89.5%, respectively. The CER and SER of the zero-shot VC-processed NEL speech of the pretrained Seed-VC model are 92.3% and 84.8%, respectively.
