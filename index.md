@@ -17,7 +17,12 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 ## Model Architecture
 
 ![ETN_VTN](figure/ETN_VTN.png)
-*Fig. 1. The training process of VTN-VC and ETN-VC models.
+* Fig. 1. The training process of VTN-VC and ETN-VC models.
+
+## Spectrogram
+
+![Spectro](figure/SpeechSpectro.png)
+* Fig. 2. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram).
 
 ## Objective evaluation
 
