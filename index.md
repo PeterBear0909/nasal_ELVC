@@ -16,9 +16,7 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 
 ## Model Architecture
 
-![VTN-VC](figure/VTN-VC.png)
-
-![ETN-VC](figure/ETN-VC.png)
+![ETN_VTN](figure/ETN_VTN.png)
 
 ## Objective evaluation
 
