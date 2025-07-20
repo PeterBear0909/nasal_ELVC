@@ -35,7 +35,6 @@ Two pretraining stages with a large-scale NL corpus; VC pretraining stage with t
 - All utterances were recorded by the same speaker.
 
 ### sEL dataset
-sEL Dataset:
 
 - TWnews: 10,000 generated utterances as augmented parallel corpus
 - GPTgen: 10,000 generated utterances as augmented parallel corpus
