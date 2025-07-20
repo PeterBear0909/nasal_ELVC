@@ -31,15 +31,15 @@ Two-stage pretraining was performed using both the sEL–sNL and EL–NL paralle
 ## Experimental Setting
 
 ### EL dataset
-CEL-NL: 320 utterances of parallel speech corpus
-NEL-NL: 320 utterances of parallel speech corpus
+1. CEL-NL: 320 utterances of parallel speech corpus
+2. NEL-NL: 320 utterances of parallel speech corpus
 * All utterances were recorded by the same speaker.
 
 ### sEL dataset
 sEL Dataset:
 
-* TWnews: 10,000 generated utterances as augmented parallel corpus
-* GPTgen: 10,000 generated utterances as augmented parallel corpus
+- TWnews: 10,000 generated utterances as augmented parallel corpus
+- GPTgen: 10,000 generated utterances as augmented parallel corpus
 
 The sNL/sEL data were generated based on the above NL/EL datasets.
 
