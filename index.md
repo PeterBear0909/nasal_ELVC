@@ -14,12 +14,11 @@
 
 Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx has low intelligibility due to insufficient excitation signals for speech production and fixed pitch. Although recent EL speech voice conversion (ELVC) research has made good progress, the research has mainly focused on cervical EL (CEL) speech. This study experiments on ELVC of speech produced by a novel nasal EL (NEL) device. Specifically, we evaluate the impact of using Mel-spectrogram and WavLM features as inputs to the ELVC system. We also propose a data augmentation method using text-to-speech (TTS) and exemplar-based VC. We find that while WavLM features have a significant effect on ELVC of CEL speech, the model using Mel-spectrogram performs better in both subjective and objective evaluations of ELVC of NEL speech due to the unique acoustic properties of NEL speech. In addition, NEL speech synthesized using Mel-spectrogram is closer to real NEL speech than NEL speech synthesized using WavLM features.
 
-## Model Architecture
+<!-- ## Model Architecture -->
+## Architecture and Training Settings
 
 ![ETN_VTN](figure/ETN_VTN.png)
 * Fig. 1. The training process of VTN-VC and ETN-VC models.
-
-Architecture and Training Settings
 
 - VTN-VC:
 Two-stage pretraining was conducted using only the original 320 utterances.
@@ -27,9 +26,7 @@ Two-stage pretraining was conducted using only the original 320 utterances.
 - ETN-VC:
 Two-stage pretraining was performed using both the sEL–sNL and EL–NL parallel corpora. The VC training stage was further fine-tuned on the EL–NL data.
 
-
-
-## Experimental Setting
+<!-- ## Experimental Setting -->
 
 ### EL dataset
 1. CEL-NL: 320 utterances of parallel speech corpus
@@ -70,8 +67,9 @@ Semantic Consistency related:
 * SpeechBertScore ↑
 
 ## Experimental Results
-The CER and SER for NEL speech are 90.8% and 89.5%, respectively. The CER and SER of the zero-shot VC-processed NEL speech of the pretrained Seed-VC model are 92.3% and 84.8%, respectively.
-The following presents the results of NEL speech processed by the VTN-VC and ETN-VC models.
+We evaluate the performance of VTN-VC on both CEL-to-NL and NEL-to-NL conversion, highlighting how the acoustic differences between CEL and NEL speech influence model behavior. To further analyze the characteristics of sNEL speech, we synthesized it using Mel-spectrogram and WavLM features, and examined their effectiveness in reconstructing the key resonant regions of NEL speech. We also compare VTN-VC and ETN-VC on the NEL-to-NL task to assess the impact of different training strategies and feature representations.
+
+The baseline CER and SER for unprocessed NEL speech are 90.8% and 89.5%, respectively, while the zero-shot Seed-VC model achieves 92.3% and 84.8%. The following presents the results of NEL speech converted by the VTN-VC and ETN-VC models.
 
 * Table. I. Objective evaluation results of VTN-VC models using different features on CEL-to-NL and NEL-to-NL conversion tasks. ↑ means the higher the better, while ↓ means the lower the better.
 ![vtn-r](figure/VTN-result.png)
