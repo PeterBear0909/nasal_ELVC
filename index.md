@@ -20,10 +20,10 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 ![ETN_VTN](figure/ETN_VTN.png)
 * Fig. 1. The training process of VTN-VC and ETN-VC models.
 
-- VTN-VC:
+1. VTN-VC:
 Two-stage pretraining was conducted using only the original 320 utterances.
 
-- ETN-VC:
+2. ETN-VC:
 Two-stage pretraining was performed using both the sEL–sNL and EL–NL parallel corpora. The VC training stage was further fine-tuned on the EL–NL data.
 
 <!-- ## Experimental Setting -->
