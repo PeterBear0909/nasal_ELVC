@@ -19,27 +19,19 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 ![ETN_VTN](figure/ETN_VTN.png)
 * Fig. 1. The training process of VTN-VC and ETN-VC models.
 
-## Spectrogram
+## Experimental Setting
 
-![Spectro](figure/SpeechSpectro.png)
-* Fig. 2. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram).
+### EL dataset
 
-## Objective Evaluation
+
+### sEL dataset
+
+### Evaluation Metric
 
 Intelligibility related:
 * MCD: Mel-cepstrum distortion ↓
 * CER: character error rate of Whisper ASR ↓
 * SER: syllable error rate of ASR system ↓
-
-F0 (Pitch) related:
-* F0 RMSE: F0 root mean square error ↑
-* F0 CORR: F0 correlation coefficients ↓
-
-Duration related:
-* DDUR: average absolute duration difference between the converted and target utterances ↓
-
-## Subjective Evaluation
-Intelligibility related:
 * A/B Test 
 * MOSA-Net+ ↑
 
@@ -47,6 +39,13 @@ Speech Quality related:
 * UTMOS ↑
 * UTMOSv2 ↑
 * MOSA-Net+ ↑
+
+F0 (Pitch) related:
+* F0 RMSE: F0 root mean square error ↑
+* F0 CORR: F0 correlation coefficients ↓
+
+Duration related:
+* DDUR: average absolute duration difference between the converted and target utterances ↓
 
 Semantic Consistency related:
 * SpeechBertScore ↑
@@ -65,7 +64,7 @@ The following presents the results of NEL speech processed by the VTN-VC and ETN
 ![nnmos](figure/nn-mos.png)
 
 ![ab_test](figure/AB_Test_Results.png)
-* Fig. 3. The intelligibility A/B test results for different model configurations. The bars represent the percentage of subjects’ votes for each system (system A, system B, and no preference)
+* Fig. 2. The intelligibility A/B test results for different model configurations. The bars represent the percentage of subjects’ votes for each system (system A, system B, and no preference)
 
 
 ## Audio Sample
@@ -117,3 +116,8 @@ The following presents the results of NEL speech processed by the VTN-VC and ETN
 | ETN-VC CEL | <audio src="audio/EL01v4/ETN-WavLM-EL_294.wav" controls preload></audio> |
 | ETN-VC NEL | <audio src="audio/NEL01v2/ETN-Mel-NEL_294.wav" controls preload></audio> |
 | NL speech | <audio src="audio/NL01v4/NL01v4_294.wav" controls preload></audio> |
+
+## Spectrogram
+
+![Spectro](figure/SpeechSpectro.png)
+* Fig. 3. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram).
