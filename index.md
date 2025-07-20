@@ -68,7 +68,7 @@ The following presents the results of NEL speech processed by the VTN-VC and ETN
 * Fig. 3. The intelligibility A/B test results for different model configurations. The bars represent the percentage of subjects’ votes for each system (system A, system B, and no preference)
 
 
-## Demo
+## Audio Sample
 
 **sample 1 (CEL using WavLM features and NEL using Mel-spectrograms, respectively.)**
 
