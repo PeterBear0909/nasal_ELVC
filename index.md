@@ -33,7 +33,8 @@ Two-stage pretraining was performed using both the sEL–sNL and EL–NL paralle
 ### EL dataset
 1. CEL-NL: 320 utterances of parallel speech corpus
 2. NEL-NL: 320 utterances of parallel speech corpus
-* All utterances were recorded by the same speaker.
+
+- All utterances were recorded by the same speaker.
 
 ### sEL dataset
 sEL Dataset:
