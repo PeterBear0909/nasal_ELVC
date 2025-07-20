@@ -21,16 +21,16 @@ Electrolaryngeal (EL) speech produced by laryngectomees using an electrolarynx h
 * Fig. 1. The training process of VTN-VC and ETN-VC models.
 
 1. VTN-VC:
-Two-stage pretraining was conducted using only the original 320 utterances.
+Two pretraining stages with a large-scale NL corpus; VC training stage with the EL dataset.
 
 2. ETN-VC:
-Two-stage pretraining was performed using both the sEL–sNL and EL–NL parallel corpora. The VC training stage was further fine-tuned on the EL–NL data.
+Two pretraining stages with a large-scale NL corpus; VC pretraining stage with the sEL and EL corpora; VC training stage was further fine-tuned on the EL dataset.
 
 <!-- ## Experimental Setting -->
 
 ### EL dataset
-1. CEL-NL: 320 utterances of parallel speech corpus
-2. NEL-NL: 320 utterances of parallel speech corpus
+1. CEL-NL: 320 utterances of parallel corpus
+2. NEL-NL: 320 utterances of parallel corpus
 
 - All utterances were recorded by the same speaker.
 
@@ -40,7 +40,7 @@ sEL Dataset:
 - TWnews: 10,000 generated utterances as augmented parallel corpus
 - GPTgen: 10,000 generated utterances as augmented parallel corpus
 
-The sNL/sEL data were generated based on the above NL/EL datasets.
+The sNL/sEL data were generated based on the above EL dataset.
 
 ### Evaluation Metric
 
