@@ -136,4 +136,4 @@ The baseline CER and SER for unprocessed NEL speech are 90.8% and 89.5%, respect
 ## Spectrogram
 
 ![Spectro](figure/SpeechSpectro.png)
-* Fig. 3. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram).
+* Fig. 3. Mel-spectrograms of NL, CEL, and NEL speech, sNEL speech synthesized using Mel-spectrogram and WavLM features, and converted speech of VTN-VC and ETN-VC (both with Mel-spectrogram). NEL speech is typically longer, whereas synthesized and converted speech follow NL durations due to seq2seq alignment.
